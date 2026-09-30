@@ -21,3 +21,6 @@ Live site: https://policmeister.webart.work
 
 ## Notes
 The page explicitly states that room categories, photos, amenities, pricing, and check-in/check-out times still need confirmation. Banquet hall capacity and email/social media contacts are also marked as not yet confirmed or not published.
+
+## Forms
+Live HotelOS forms (`kp-policmeister`, script before `</body>`): `event-request` (after `#events`) and `stay-request` (after `#rooms`). No room-type select: categories are unconfirmed.

@@ -38,6 +38,8 @@
     .stamp,.coffee-visual,.gallery-grid figure{overflow:hidden}.stamp img,.coffee-visual img,.gallery-grid img,.food-card:first-child{transition:transform 1.1s cubic-bezier(.16,.8,.3,1)}.stamp:hover img,.coffee-visual:hover img{transform:scale(1.045)}.food-card:first-child{transition:background-size 1.1s cubic-bezier(.16,.8,.3,1)}.food-card:first-child:hover{background-size:112%}.events{transition:background-size 1.1s cubic-bezier(.16,.8,.3,1)}.events:hover{background-size:112%}
     @supports(background-attachment:fixed){@media(min-width:1001px) and (prefers-reduced-motion:no-preference){.oldtown,.final{background-attachment:fixed}}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-item{opacity:1;transform:none;transition:none}.btn{transition:none}.hero-media{transform:none!important}.stamp img,.coffee-visual img,.gallery-grid img,.food-card:first-child,.bakery-photo,.events{transition:none}}
+    .hf-sec{background:var(--paper2)}.hf-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}.hf-phone{display:inline-block;margin-top:24px;font:400 1.7rem var(--serif);color:var(--copper)}.hf-phone:hover{color:var(--coffee)}.hf-form{display:grid;grid-template-columns:1fr 1fr;gap:18px 14px;min-width:0;padding:38px;background:var(--paper);border-top:4px solid var(--coffee)}.hf-field{display:flex;flex-direction:column;gap:6px;min-width:0;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--coffee)}.hf-field.full{grid-column:1/-1}.hf-field small{font-size:.78rem;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}.hf-field input,.hf-field select,.hf-field textarea{width:100%;min-width:0;min-height:50px;padding:12px 15px;border:1px solid var(--line);border-radius:0;background:var(--paper2);color:var(--ink);font:500 1rem var(--sans);letter-spacing:0;text-transform:none}.hf-field textarea{min-height:105px;resize:vertical}.hf-field input:focus,.hf-field select:focus,.hf-field textarea:focus{outline:2px solid var(--copper);outline-offset:1px}.hf-field [aria-invalid=true]{border-color:var(--wine);box-shadow:inset 0 0 0 1px var(--wine)}[data-error-for]{font-size:.8rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--wine)}[data-error-for]:empty{display:none}.hf-trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.hf-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:16px}.hf-foot .btn{cursor:pointer;font-family:var(--sans)}.hf-foot .btn[disabled]{opacity:.6;cursor:wait;transform:none}.hf-note{flex:1;min-width:200px;margin:0;font-size:.74rem;color:var(--muted)}[data-status]{grid-column:1/-1;margin:0;padding:15px 18px;border-left:3px solid var(--brass);background:var(--paper2);font-size:.9rem}[data-status]:empty{display:none}[data-status][data-state=error]{border-color:var(--wine)}[data-status] a{font-weight:700;text-decoration:underline}
+    @media(max-width:920px){.hf-grid{grid-template-columns:1fr;gap:40px}}@media(max-width:620px){.hf-form{grid-template-columns:1fr;padding:26px 18px}}
     @media(max-width:920px){.hero-inner{grid-template-columns:minmax(0,1fr)}.hero-side{display:none}.facts{grid-template-columns:repeat(2,1fr)}.fact:last-child{grid-column:span 2}.story-grid,.coffee-grid,.stay-grid,.contact-grid,.event-grid{grid-template-columns:1fr}.bakery-grid,.food-head{grid-template-columns:1fr}.food-layout{grid-template-columns:1fr 1fr}.food-card:first-child{grid-column:span 2}.museum-grid{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-grid figure:first-child{grid-row:auto;grid-column:span 2}.foot{grid-template-columns:1fr 1fr 1fr}.foot-brand{grid-column:span 3}}
     @media(max-width:620px){.wrap{width:min(100% - 28px,1180px)}.section{padding:76px 0}.nav{height:76px}.links,.nav>.btn{display:none}.hero{min-height:760px}.hero-inner{padding:145px 0 72px}.hero h1{font-size:clamp(1.75rem,9vw,3rem)}.facts{margin-top:0}.fact{padding:19px 14px}.stamp{height:430px}.story-points{grid-template-columns:1fr}.story-point:nth-child(odd){margin-right:0}.coffee-visual{height:470px}.steps{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid #ffffff28}.bakery-photo{min-height:480px;padding:28px}.bakery-copy{padding:40px 28px}.food-layout{grid-template-columns:1fr}.food-card,.food-card:first-child{grid-column:auto;min-height:330px}.kids{align-items:flex-start;flex-wrap:wrap}.kids .btn{margin-left:0}.collection{grid-template-columns:1fr;grid-template-rows:300px 230px 230px}.object:first-child{grid-row:auto}.event-types{grid-template-columns:1fr}.three{font-size:9rem}.rooms{grid-template-columns:1fr}.oldtown{min-height:620px}.timeline{grid-template-columns:1fr}.moment{border-right:0;border-bottom:1px solid var(--line)}.gallery-grid{grid-template-columns:1fr;grid-template-rows:auto}.gallery-grid figure,.gallery-grid figure:first-child{grid-column:auto;height:230px}.gallery-grid figure:first-child{height:350px}.map{height:430px}.details a,.details div{display:block}.foot{grid-template-columns:1fr 1fr}.foot-brand{grid-column:span 2}.mobile-cta{position:fixed;z-index:60;bottom:0;left:0;right:0;display:grid;grid-template-columns:1fr 1.2fr;background:white;padding:8px;box-shadow:0 -8px 24px #0002}.mobile-cta .btn{min-height:44px;padding:0 7px;font-size:.62rem}.mobile-cta .btn:first-child{background:white;color:var(--coffee);border-color:var(--coffee)}body{padding-bottom:60px}}
   </style>
@@ -54,8 +56,10 @@
     <section class="section bakery" id="bakery"><div class="wrap bakery-grid reveal"><div class="bakery-photo"><blockquote>«Кава ще краща, коли поруч щось щойно з печі»</blockquote></div><div class="bakery-copy"><p class="eyebrow">Власна пекарня</p><h2 class="title">Власна випічка</h2><p>Це окрема причина зайти: оберіть свіжу випічку до кави та залиште трохи більше часу для неспішної розмови.</p><div class="today">Асортимент і ціни змінюються, запитайте, що сьогодні з печі.</div><a class="btn" style="margin-top:25px;background:var(--paper);color:var(--coffee);border-color:var(--paper)" href="tel:+380677130469">Що сьогодні з випічки?</a></div></div></section>
     <section class="section" id="food"><div class="wrap"><div class="food-head"><div><p class="eyebrow">Не тільки кава</p><h2 class="title">Кухня з кількома характерами</h2></div><p class="lead">Підтверджені напрями: авторська, домашня та європейська кухні. Конкретні страви, склад і актуальні ціни запитуйте у закладі.</p></div><div class="food-layout reveal-group"><article class="food-card reveal-item"><h3>Авторська кухня</h3><p>Страви з власним характером закладу.</p></article><article class="food-card reveal-item"><h3>Домашня кухня</h3><p>Знайомі смаки в атмосфері старої кав’ярні.</p></article><article class="food-card reveal-item"><h3>Європейська кухня</h3><p>Окремий напрям основного меню.</p></article></div><div class="kids reveal"><span class="kids-mark">☺</span><div><h3>Для маленьких гостей</h3><p>У закладі доступне дитяче меню. Інші зручності для сімей з дітьми уточнюйте.</p></div><a class="btn dark" href="tel:+380677130469">Запитати дитяче меню</a></div></div></section>
     <section class="section museum"><div class="wrap museum-grid"><div><p class="eyebrow">Озирніться навколо</p><h2 class="title">Поки чекаєте каву, озирніться навколо</h2><p class="lead">Музейна частина не декорація, а частина досвіду. Тут можна побачити старі фото, побутові речі та кавові артефакти різних епох.</p><p class="source" style="color:#aa9c89">Детальний каталог експонатів не публікуємо без опису від власника.</p></div><div class="collection reveal-group"><figure class="object reveal-item"><img src="photo-museum-objects.jpg" alt="Старовинні побутові предмети та посуд" loading="lazy"><span>Предмети побуту</span></figure><figure class="object reveal-item"><img src="photo-old-cafe.jpg" alt="Старовинний інтер’єр кав’ярні з лампами" loading="lazy"><span>Стара кав’ярня</span></figure><div class="object-note reveal-item" style="background:linear-gradient(#1a120866,#1a1208cc),url('photo-coffee-grinder.jpg') center/cover;color:white">Кавомолка австрійського періоду</div></div></div></section>
-    <section class="section events" id="events"><div class="wrap event-grid reveal"><div><p class="eyebrow">Приватні події</p><h2 class="title">Святкуйте в атмосфері Старого міста</h2><p class="lead">Банкетний зал дозволяє планувати не лише звичайне відвідування, а й приватну подію.</p><div class="capacity-note">Місткість банкетного залу уточнюйте безпосередньо в закладі.</div></div><div><div class="event-types"><div>День народження</div><div>Ювілей</div><div>Сімейна вечеря</div><div>Невеликий корпоратив</div></div><div class="actions"><a class="btn" href="tel:+380677130469">Запитати про подію</a><a class="btn light" href="tel:+380677130469">Зателефонувати</a></div></div></div></section>
-    <section class="section stay" id="rooms"><div class="wrap"><div class="stay-grid reveal"><div><span class="three">3</span><p class="eyebrow">Проживання</p><h2 class="title" style="word-break:keep-all;overflow-wrap:normal">Не<br>поспішайте<br>йти</h2></div><div><p class="lead">У «Каві від поліцмейстера» є лише три готельні номери. Проведіть вечір у Старому Кам’янці, повечеряйте, випийте кави і залишайтеся на ніч.</p><p class="source">Назви категорій, фото, оснащення, ціни та час заїзду/виїзду ще потребують підтвердження.</p><a class="btn dark" href="tel:+380677130469">Запитати про номери</a></div></div><div class="rooms reveal-group"><article class="room reveal-item"><span>01</span><h3>Кімната для проживання</h3><p>Деталі та доступність безпосередньо у закладі.</p></article><article class="room reveal-item"><span>02</span><h3>Кімната для проживання</h3><p>Не вигадуємо категорію до підтвердження.</p></article><article class="room reveal-item"><span>03</span><h3>Кімната для проживання</h3><p>Одна з трьох кімнат у Старому місті.</p></article></div></div></section>
+    <section class="section events" id="events"><div class="wrap event-grid reveal"><div><p class="eyebrow">Приватні події</p><h2 class="title">Святкуйте в атмосфері Старого міста</h2><p class="lead">Банкетний зал дозволяє планувати не лише звичайне відвідування, а й приватну подію.</p><div class="capacity-note">Місткість банкетного залу уточнюйте безпосередньо в закладі.</div></div><div><div class="event-types"><div>День народження</div><div>Ювілей</div><div>Сімейна вечеря</div><div>Невеликий корпоратив</div></div><div class="actions"><a class="btn" href="#event-request">Запитати про подію</a><a class="btn light" href="tel:+380677130469">Зателефонувати</a></div></div></div></section>
+    <section class="section hf-sec" id="event-request"><div class="wrap hf-grid"><div class="reveal"><p class="eyebrow">Запит на подію</p><h2 class="title">Розкажіть про ваше свято</h2><p class="lead">Вкажіть дату та приблизну кількість гостей. Ми зателефонуємо, щоб розповісти про банкетний зал, його місткість і меню.</p><a class="hf-phone" href="tel:+380677130469">+38 067 713 04 69</a></div><form class="hf-form" data-hotelos data-form-name="Запит на подію" novalidate><label class="hf-field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="event-request-phone-error"><span id="event-request-phone-error" data-error-for="phone"></span></label><label class="hf-field full">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="hf-field">Дата події<input name="date" type="date"></label><label class="hf-field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="hf-field full">Подія<select name="service"><option value="">Ще не вирішили</option><option>День народження</option><option>Ювілей</option><option>Сімейна вечеря</option><option>Невеликий корпоратив</option></select></label><label class="hf-field full">Побажання<textarea name="message" maxlength="5000" placeholder="Час, побажання щодо меню, кава на піску для гостей…"></textarea></label><label class="hf-trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="hf-foot"><button class="btn" type="submit">Надіслати запит</button><p class="hf-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
+    <section class="section stay" id="rooms"><div class="wrap"><div class="stay-grid reveal"><div><span class="three">3</span><p class="eyebrow">Проживання</p><h2 class="title" style="word-break:keep-all;overflow-wrap:normal">Не<br>поспішайте<br>йти</h2></div><div><p class="lead">У «Каві від поліцмейстера» є лише три готельні номери. Проведіть вечір у Старому Кам’янці, повечеряйте, випийте кави і залишайтеся на ніч.</p><p class="source">Назви категорій, фото, оснащення, ціни та час заїзду/виїзду ще потребують підтвердження.</p><div class="actions"><a class="btn dark" href="#stay-request">Запитати про номери</a><a class="btn" href="tel:+380677130469">Зателефонувати</a></div></div></div><div class="rooms reveal-group"><article class="room reveal-item"><span>01</span><h3>Кімната для проживання</h3><p>Деталі та доступність безпосередньо у закладі.</p></article><article class="room reveal-item"><span>02</span><h3>Кімната для проживання</h3><p>Не вигадуємо категорію до підтвердження.</p></article><article class="room reveal-item"><span>03</span><h3>Кімната для проживання</h3><p>Одна з трьох кімнат у Старому місті.</p></article></div></div></section>
+    <section class="section hf-sec" id="stay-request"><div class="wrap hf-grid"><div class="reveal"><p class="eyebrow">Запит на проживання</p><h2 class="title">Залишайтеся на ніч у Старому місті</h2><p class="lead">Номерів лише три, тож залиште телефон і, за бажанням, дати. Ми передзвонимо й підтвердимо, чи є вільна кімната та скільки коштує ночівля.</p><a class="hf-phone" href="tel:+380677130469">+38 067 713 04 69</a></div><form class="hf-form" data-hotelos data-form-name="Запит на проживання" novalidate><label class="hf-field full">Телефон<small>Обов’язково, щоб ми могли передзвонити</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="stay-request-phone-error"><span id="stay-request-phone-error" data-error-for="phone"></span></label><label class="hf-field">Ім’я<input name="name" type="text" autocomplete="name" maxlength="200"></label><label class="hf-field">Гостей<input name="guests" type="number" min="1" max="50" inputmode="numeric"></label><label class="hf-field">Дата заїзду<input name="checkIn" type="date"></label><label class="hf-field">Дата виїзду<input name="checkOut" type="date" aria-describedby="stay-request-checkout-error"><span id="stay-request-checkout-error" data-error-for="checkOut"></span></label><label class="hf-field full">Побажання<textarea name="message" maxlength="5000" placeholder="Пізній заїзд, вечеря в кав’ярні…"></textarea></label><label class="hf-trap" aria-hidden="true">Не заповнюйте<input name="website" type="text" tabindex="-1" autocomplete="off"></label><div class="hf-foot"><button class="btn" type="submit">Надіслати запит</button><p class="hf-note">Номер використаємо лише для відповіді на цей запит.</p></div><p data-status role="status" aria-live="polite"></p></form></div></section>
     <section class="oldtown"><div class="wrap oldtown-card reveal"><p class="eyebrow">Одразу за дверима</p><h2 class="title">Кам’янець за дверима</h2><p>вул. Старобульварна, 8, адреса у Старому місті. Відвідування кав’ярні стає частиною самої прогулянки Кам’янцем.</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Кава+від+поліцмейстера,+Старобульварна+8,+Кам’янець-Подільський" target="_blank" rel="noopener">Показати на карті</a></div></section>
     <section class="section"><div class="wrap"><p class="eyebrow">Кам’янецький вечір</p><h2 class="title">Один вечір у Старому місті</h2><div class="timeline reveal-group"><div class="moment reveal-item"><time>17:00</time><p>Прогулянка Кам’янцем.</p></div><div class="moment reveal-item"><time>18:30</time><p>Вечеря.</p></div><div class="moment reveal-item"><time>20:00</time><p>Кава на піску.</p></div><div class="moment reveal-item"><time>21:00</time><p>Випічка й ще трохи розмов.</p></div><div class="moment reveal-item"><time>Потім</time><p>Якщо не хочеться поспішати, залишайтеся на ніч.</p></div></div></div></section>
     <section class="section gallery" id="gallery"><div class="wrap"><p class="eyebrow">Атмосфера</p><h2 class="title">Краще за слова</h2><div class="gallery-grid reveal-group"><figure class="reveal-item"><img src="photo-cafe-interior.jpg" alt="Інтер’єр кафе-музею" loading="lazy"></figure><figure class="reveal-item"><img src="photo-bar.jpg" alt="Бар кав’ярні" loading="lazy"></figure><div class="gallery-word reveal-item">кава · музей · історія</div><figure class="reveal-item"><img src="https://ua.igotoworld.com/frontend/webcontent/websites/1/images/gallery/24475_800x600_65468773_l0tZATsNfbgSv3L5ATEjS_iczFJ3ctUdUxcC4DbyER8.jpg" alt="Кам’яний інтер’єр кав’ярні" loading="lazy"></figure><figure class="reveal-item"><img src="photo-entrance.jpg" alt="Вхід до Кави від поліцмейстера" loading="lazy"></figure></div></div></section>
@@ -77,4 +81,151 @@
       }
     }
   </script>
+<script type="module">
+// HotelOS site forms. Paste this whole block into the site's index.html as an inline module
+// script right before the closing body tag, and set the three constants below. Never put a
+// literal closing script tag inside this file: it would end the inline script early.
+// Contract (hotelos.webart.work/CRM.md → Submission data contract, firestore.rules):
+// - every form is <form data-hotelos data-form-name="…" novalidate> inside a <section id="{formId}">;
+//   the section id IS the formId (stable slug, e.g. stay-request, sauna-request) and the CRM
+//   links to SITE + '#' + formId, so the link scrolls to the start of that section;
+// - fields are matched by name: phone (required), name, email, message, checkIn, checkOut, guests,
+//   roomType, date, time, service; a [data-genders] box renders one select per guest (hostels);
+// - errors go to [data-error-for="<name>"], the result to [data-status]; `website` is a honeypot.
+const HOTEL_ID = 'kp-policmeister'; // Firestore hotels/{id}: 'kp-' + site folder name
+const SITE = 'https://policmeister.webart.work/'; // from the site's CNAME
+const PHONE = '+38 067 713 04 69'; // shown when sending fails
+
+const FIREBASE = {
+	apiKey: 'AIzaSyBeSB5EuC4BBSpmCGA3Pjk7dD_JV2SdcSQ',
+	authDomain: 'hotel-upwork.firebaseapp.com',
+	projectId: 'hotel-upwork',
+	appId: '1:40129364672:web:c9659550ebf0f1d8a36325',
+};
+const SDK = 'https://www.gstatic.com/firebasejs/12.19.0/';
+const TEXT_FIELDS = ['name', 'email', 'message', 'checkIn', 'checkOut', 'date', 'time', 'roomType', 'service'];
+const today = new Date(Date.now() - new Date().getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+
+let db;
+async function firestore() {
+	if (db) return db;
+	// Loaded on first submit only, so the page itself stays light.
+	const [{ initializeApp }, lite] = await Promise.all([import(SDK + 'firebase-app.js'), import(SDK + 'firebase-firestore-lite.js')]);
+	db = { lite, store: lite.getFirestore(initializeApp(FIREBASE)) };
+	return db;
+}
+
+function setup(form) {
+	const formId = form.closest('section[id]')?.id;
+	if (!formId) return console.error('HotelOS form needs a parent <section id="formId">', form);
+	const field = (name) => form.elements.namedItem(name);
+	const statusEl = form.querySelector('[data-status]');
+	const submit = form.querySelector('[type=submit]');
+	const submitLabel = submit.textContent;
+	const gendersBox = form.querySelector('[data-genders]');
+
+	for (const name of ['checkIn', 'checkOut', 'date']) if (field(name)) field(name).min = today;
+	if (field('checkIn') && field('checkOut')) {
+		field('checkIn').addEventListener('change', () => {
+			const checkIn = field('checkIn').value;
+			field('checkOut').min = checkIn || today;
+			if (field('checkOut').value && field('checkOut').value <= checkIn) field('checkOut').value = '';
+		});
+	}
+
+	// Hostels: one gender select per guest, kept in sync with the guests count.
+	function renderGenders() {
+		if (!gendersBox) return;
+		const count = Math.min(Math.max(parseInt(field('guests')?.value, 10) || 1, 1), 20);
+		const current = [...gendersBox.querySelectorAll('select')].map((select) => select.value);
+		gendersBox.replaceChildren(
+			...Array.from({ length: count }, (_, i) => {
+				const label = document.createElement('label');
+				label.textContent = `Гість ${i + 1}`;
+				const select = document.createElement('select');
+				select.name = 'gender';
+				select.required = true;
+				select.innerHTML = '<option value="">Стать</option><option value="female">Жінка</option><option value="male">Чоловік</option>';
+				select.value = current[i] ?? '';
+				label.append(select);
+				return label;
+			}),
+		);
+	}
+	if (gendersBox) {
+		field('guests')?.addEventListener('input', renderGenders);
+		renderGenders();
+	}
+
+	function setError(name, text) {
+		const input = field(name);
+		if (input instanceof Element) input.setAttribute('aria-invalid', text ? 'true' : 'false');
+		const slot = form.querySelector(`[data-error-for="${name}"]`);
+		if (slot) slot.textContent = text;
+	}
+
+	function showStatus(state, html) {
+		statusEl.dataset.state = state;
+		statusEl.innerHTML = html;
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		showStatus('', '');
+		const phone = field('phone').value.trim();
+		const digits = phone.replace(/\D/g, '');
+		setError('phone', digits.length < 9 || digits.length > 15 ? 'Вкажіть номер телефону, щоб ми могли передзвонити.' : '');
+		if (field('checkIn') && field('checkOut')) {
+			const { value: checkIn } = field('checkIn');
+			const { value: checkOut } = field('checkOut');
+			setError('checkOut', checkIn && checkOut && checkOut <= checkIn ? 'Дата виїзду має бути пізніше за дату заїзду.' : '');
+		}
+		const genderSelects = gendersBox ? [...gendersBox.querySelectorAll('select')] : [];
+		if (gendersBox) {
+			const missing = genderSelects.some((select) => !select.value);
+			for (const select of genderSelects) select.setAttribute('aria-invalid', missing && !select.value ? 'true' : 'false');
+			const slot = form.querySelector('[data-error-for="genders"]');
+			if (slot) slot.textContent = missing ? 'Вкажіть стать кожного гостя, щоб ми підібрали місця.' : '';
+		}
+		const invalid = form.querySelector('[aria-invalid=true]');
+		if (invalid) return invalid.focus();
+
+		const thanks = `Дякуємо! Ми зателефонуємо на ${phone.replace(/</g, '')} найближчим часом.`;
+		// Bots fill the hidden field: pretend success, send nothing.
+		if (field('website')?.value) {
+			form.reset();
+			renderGenders();
+			return showStatus('ok', thanks);
+		}
+
+		const lead = { phone, formId, formName: form.dataset.formName, site: SITE, hotelId: HOTEL_ID };
+		for (const name of TEXT_FIELDS) {
+			const value = field(name)?.value?.trim();
+			if (value) lead[name] = value;
+		}
+		const guests = parseInt(field('guests')?.value, 10);
+		if (guests >= 1 && guests <= 50) lead.guests = guests;
+		if (genderSelects.length) lead.genders = genderSelects.map((select) => select.value);
+
+		submit.disabled = true;
+		submit.textContent = 'Надсилаємо…';
+		try {
+			const { lite, store } = await firestore();
+			await lite.addDoc(lite.collection(store, 'submissions'), { ...lead, status: 'new', history: [], createdAt: lite.serverTimestamp() });
+			form.reset();
+			if (field('checkOut')) field('checkOut').min = today;
+			renderGenders();
+			showStatus('ok', thanks);
+		} catch (error) {
+			console.error(error);
+			showStatus('error', `Не вдалося надіслати запит. Зателефонуйте нам: <a href="tel:${PHONE.replace(/[^\d+]/g, '')}">${PHONE}</a>.`);
+		} finally {
+			submit.disabled = false;
+			submit.textContent = submitLabel;
+		}
+	});
+}
+
+document.querySelectorAll('form[data-hotelos]').forEach(setup);
+</script>
 </body></html>
